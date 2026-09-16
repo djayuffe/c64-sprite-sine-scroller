@@ -1,8 +1,8 @@
 .PHONY: all clean
 
 ACME ?= acme
-OUTPUT := build/deepseek_c64_v7g.prg
-SOURCE := deepseek_c64_v7g.s
+OUTPUT := build/c64_sprite_sine_scroller.prg
+SOURCE := c64_sprite_sine_scroller.s
 
 all: $(OUTPUT)
 

@@ -1,4 +1,4 @@
-# DeepSeek C64 v7g
+# C64 v7g
 
 PAL C64 demo with multicolor sprites, sine-wave motion, animated pointers,
 raster heartbeat, and a scrolling message.
@@ -11,15 +11,15 @@ Requires ACME 0.97 or newer:
 make
 ```
 
-Output: `build/deepseek_c64_v7g.prg`. Run with:
+Output: `build/c64_sprite_sine_scroller.prg`. Run with:
 
 ```sh
-x64sc -autostart build/deepseek_c64_v7g.prg
+x64sc -autostart build/c64_sprite_sine_scroller.prg
 ```
 
 ## Repository layout
 
-- `deepseek_c64_v7g.s` — corrected source.
+- `c64_sprite_sine_scroller.s` — corrected source.
 - `Makefile`, `AUDIT.md`, and `SHA256SUMS.txt` — build, audit, and integrity data.
 
 ## Audit summary

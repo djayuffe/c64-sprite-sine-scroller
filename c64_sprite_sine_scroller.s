@@ -1,10 +1,10 @@
-; deepseek_c64_v7g.s
+; c64_sprite_sine_scroller.s
 ; Stable start + DEBUG heartbeat (ACME !if syntax) + richer sprite motion/colors
 ;
 ; Build:
-;   acme -f cbm -o deepseek_c64_v7g.prg deepseek_c64_v7g.s
+;   acme -f cbm -o c64_sprite_sine_scroller.prg c64_sprite_sine_scroller.s
 ; Run (VICE):
-;   x64sc -autostart deepseek_c64_v7g.prg
+;   x64sc -autostart c64_sprite_sine_scroller.prg
 ;
 ; Toggle a visible raster heartbeat in border each IRQ:
 DEBUG = 1        ; 0=no heartbeat, 1=heartbeat
