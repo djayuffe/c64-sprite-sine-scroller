@@ -1,5 +1,9 @@
 # C64 v7g
 
+![C64 effect preview](docs/preview.png)
+
+Visual preview asset for this effect; run the VICE command below for an emulator capture.
+
 PAL C64 demo with multicolor sprites, sine-wave motion, animated pointers,
 raster heartbeat, and a scrolling message.
 
