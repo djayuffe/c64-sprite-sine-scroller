@@ -1,10 +1,10 @@
-; deepseek_asm_20251009_fixed_v7g_gfxboost.s
+; deepseek_c64_v7g.s
 ; Stable start + DEBUG heartbeat (ACME !if syntax) + richer sprite motion/colors
 ;
 ; Build:
-;   acme -f cbm -o deepseek_asm_fixed.prg deepseek_asm_20251009_fixed_v7g_gfxboost.s
+;   acme -f cbm -o deepseek_c64_v7g.prg deepseek_c64_v7g.s
 ; Run (VICE):
-;   x64sc -autostart deepseek_asm_fixed.prg
+;   x64sc -autostart deepseek_c64_v7g.prg
 ;
 ; Toggle a visible raster heartbeat in border each IRQ:
 DEBUG = 1        ; 0=no heartbeat, 1=heartbeat
