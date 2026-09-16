@@ -26,3 +26,7 @@ x64sc -autostart build/c64_sprite_sine_scroller.prg
 
 The audit corrected character-ROM mapping, protected sprite indices from
 sine-table indexing, constrained VIC coordinates, and fixed scroller wrapping.
+## Documentation and license
+
+Function-level documentation is in docs/FUNCTIONS.md. The project is released
+under GPL-3.0; see LICENSE.
