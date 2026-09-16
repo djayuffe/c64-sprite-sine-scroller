@@ -1,4 +1,4 @@
-# C64 v7g
+# C64 - Sprite Sine Scroller
 
 ![C64 effect preview](docs/preview.png)
 
